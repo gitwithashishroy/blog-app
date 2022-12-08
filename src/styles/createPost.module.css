@@ -1,0 +1,51 @@
+.createPost{
+    width: 80%;
+    margin : auto ; 
+}
+
+.createPost h1{
+    text-align: center;
+}
+
+.formField{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.createPost .formField input{
+    height: 37px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.createPost .formField input[type="file"]{ 
+    background-color: white ;
+    outline: none ; 
+}
+
+.createPost .formField label{
+    margin-bottom: 9px;
+}
+
+.createPost .formField textarea{
+    border: 1px solid #e1e1e1;
+    height: 400px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 3px;
+    padding-top: 5px;
+}
+
+button{
+    height: 33px;
+    background: #4caf50;
+    border: 0;
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
